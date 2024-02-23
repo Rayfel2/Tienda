@@ -1,11 +1,37 @@
-# Carpeta macOS generada por macOS Finder
-__MACOSX/
-
-# Archivos y directorios generados
-node_modules/
+# Archivos y directorios generados por Flutter
 build/
-dist/
+dart_tool/
+.pub/
+packages/
+*.iml
+*.lock
+.flutter-plugins
+.flutter-plugins-dependencies
+.vscode/
 
-# Archivos sensibles (se recomienda no incluir credenciales)
-.env
-.env.local
+# Archivos generados por Android Studio / IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+*.log
+
+# Archivos generados por Visual Studio Code
+.vscode/
+
+# Para Android Studio
+android/
+
+# Ejemplo para VS Code (Dart Code)
+.dart_tool/
+
+# Si estás utilizando Git LFS (Large File Storage)
+*.zip
+*.tar.gz
+*.tar
+*.rar
+*.7z
+*.mp3
+*.mp4
+*.avi
+*.flv
